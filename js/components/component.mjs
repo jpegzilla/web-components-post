@@ -15,10 +15,6 @@ class Component extends HTMLElement {
     this.id = id
   }
 
-  removeAttribute(attr) {
-    this.removeAttribute(attr)
-  }
-
   attr(name, val) {
     return val ? this.setAttribute(name, val) : this.getAttribute(name)
   }
