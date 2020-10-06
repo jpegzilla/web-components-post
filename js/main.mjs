@@ -1,1 +1,1 @@
-import Clock from "./components/clock.mjs";
+import Clock from './components/clock.mjs'

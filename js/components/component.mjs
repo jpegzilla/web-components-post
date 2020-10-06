@@ -1,27 +1,27 @@
 class Component extends HTMLElement {
   addClass(className) {
-    this.classList.add(className);
+    this.classList.add(className)
   }
 
   removeClass(className) {
-    this.classList.remove(className);
+    this.classList.remove(className)
   }
 
   toggleClass(className) {
-    this.classList.toggle(className);
+    this.classList.toggle(className)
   }
 
   setId(id) {
-    this.id = id;
+    this.id = id
   }
 
   removeAttribute(attr) {
-    this.removeAttribute(attr);
+    this.removeAttribute(attr)
   }
 
   attr(name, val) {
-    return val ? this.setAttribute(name, val) : this.getAttribute(name);
+    return val ? this.setAttribute(name, val) : this.getAttribute(name)
   }
 }
 
-export default Component;
+export default Component
