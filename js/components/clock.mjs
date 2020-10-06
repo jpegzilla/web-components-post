@@ -1,5 +1,4 @@
 import Component from './component.mjs'
-import html from './../utils/html.mjs'
 
 class Clock extends Component {
   constructor() {
@@ -13,7 +12,7 @@ class Clock extends Component {
   }
 
   connectedCallback() {
-    this.shadowRoot.innerHTML = html`
+    this.shadowRoot.innerHTML = `
       <time id="clock" part="time">${this.getTime()}</time>
     `
 
