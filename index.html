@@ -7,7 +7,15 @@
     <title>basic web component</title>
   </head>
 
-  <body></body>
+  <style media="screen">
+    clock-element::part(time) {
+      color: red;
+    }
+  </style>
+
+  <body>
+    <clock-element></clock-element>
+  </body>
 
   <script src="./js/main.mjs" type="module" charset="utf-8"></script>
 </html>
