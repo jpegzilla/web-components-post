@@ -1,5 +1,4 @@
 import Component from './component.mjs'
-import html from './../utils/html.mjs'
 
 class Clock extends Component {
   connectedCallback() {}
